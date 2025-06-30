@@ -1,7 +1,7 @@
 # GoTRON SDK
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/fbsobreira/gotron-sdk.svg)](https://pkg.go.dev/github.com/fbsobreira/gotron-sdk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fbsobreira/gotron-sdk)](https://goreportcard.com/report/github.com/fbsobreira/gotron-sdk)
+[![Go Reference](https://pkg.go.dev/badge/github.com/MrHayden404/gotron-sdk.svg)](https://pkg.go.dev/github.com/MrHayden404/gotron-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MrHayden404/gotron-sdk)](https://goreportcard.com/report/github.com/MrHayden404/gotron-sdk)
 [![License](https://img.shields.io/github/license/fbsobreira/gotron-sdk)](LICENSE)
 
 GoTRON SDK is a comprehensive Go SDK and CLI tool for interacting with the TRON blockchain. It provides both a command-line interface (`tronctl`) and Go libraries for TRON blockchain operations.
@@ -20,14 +20,14 @@ GoTRON SDK is a comprehensive Go SDK and CLI tool for interacting with the TRON 
 
 #### Install from source
 ```bash
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 ```
 
 #### Install with go get
 ```bash
-go get -u github.com/fbsobreira/gotron-sdk
+go get -u github.com/MrHayden404/gotron-sdk
 ```
 
 ### Basic Usage
@@ -52,8 +52,8 @@ import (
     "fmt"
     "log"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
 )
 
 func main() {
@@ -221,6 +221,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/fbsobreira/gotron-sdk/tree/master/docs)
-- 🐛 [Issue Tracker](https://github.com/fbsobreira/gotron-sdk/issues)
-- 💬 [Discussions](https://github.com/fbsobreira/gotron-sdk/discussions)
+- 📖 [Documentation](https://github.com/MrHayden404/gotron-sdk/tree/master/docs)
+- 🐛 [Issue Tracker](https://github.com/MrHayden404/gotron-sdk/issues)
+- 💬 [Discussions](https://github.com/MrHayden404/gotron-sdk/discussions)

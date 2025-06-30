@@ -47,7 +47,7 @@ fi
 
 # Modify import references in all .proto files
 print_msg "🔄 Updating import references in .proto files..."
-find "$PROTO_SRC_DIR" -name "*.proto" -type f -exec sed -i.bak 's|github.com/tronprotocol/grpc-gateway|github.com/fbsobreira/gotron-sdk/pkg/proto|g' {} \;
+find "$PROTO_SRC_DIR" -name "*.proto" -type f -exec sed -i.bak 's|github.com/tronprotocol/grpc-gateway|github.com/MrHayden404/gotron-sdk/pkg/proto|g' {} \;
 
 # Remove .bak files on macOS (sed behaves differently)
 find "$PROTO_SRC_DIR" -name "*.bak" -type f -delete

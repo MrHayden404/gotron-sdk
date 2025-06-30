@@ -47,7 +47,7 @@ This is the recommended method as it ensures you get the latest version with all
 
 ```bash
 # Clone the repository
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 
 # Build and install to ~/.local/bin
@@ -64,19 +64,19 @@ For quick installation as a Go module:
 
 ```bash
 # Install the CLI tool
-go install github.com/fbsobreira/gotron-sdk/cmd/tronctl@latest
+go install github.com/MrHayden404/gotron-sdk/cmd/tronctl@latest
 
 # Add as dependency to your project
-go get github.com/fbsobreira/gotron-sdk
+go get github.com/MrHayden404/gotron-sdk
 ```
 
 ### Install Pre-built Binaries
 
-Download pre-built binaries from the [releases page](https://github.com/fbsobreira/gotron-sdk/releases):
+Download pre-built binaries from the [releases page](https://github.com/MrHayden404/gotron-sdk/releases):
 
 ```bash
 # Linux example
-wget https://github.com/fbsobreira/gotron-sdk/releases/download/v1.3.0/tronctl-linux-amd64
+wget https://github.com/MrHayden404/gotron-sdk/releases/download/v1.3.0/tronctl-linux-amd64
 chmod +x tronctl-linux-amd64
 sudo mv tronctl-linux-amd64 /usr/local/bin/tronctl
 
@@ -96,7 +96,7 @@ sudo apt-get update
 sudo apt-get install -y build-essential git golang
 
 # Clone and build
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 
@@ -112,7 +112,7 @@ source ~/.bashrc
 sudo dnf install -y git golang make
 
 # Clone and build
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 
@@ -128,7 +128,7 @@ source ~/.bashrc
 sudo pacman -S git go make
 
 # Clone and build
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 ```
@@ -142,7 +142,7 @@ make install
 brew install go
 
 # Clone and build
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 
@@ -158,7 +158,7 @@ source ~/.zshrc
 xcode-select --install
 
 # Clone and build
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 make install
 ```
@@ -169,7 +169,7 @@ make install
 
 ```bash
 # Clone repository
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 
 # Build for Windows
@@ -183,7 +183,7 @@ GOOS=windows GOARCH=amd64 go build -o tronctl.exe ./cmd/main.go
 
 ```powershell
 # Clone repository
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/MrHayden404/gotron-sdk.git
 cd gotron-sdk
 
 # Build
@@ -308,8 +308,8 @@ make build
 
 If you encounter issues:
 
-1. Check the [GitHub Issues](https://github.com/fbsobreira/gotron-sdk/issues)
-2. Read the [FAQ](https://github.com/fbsobreira/gotron-sdk/wiki/FAQ)
+1. Check the [GitHub Issues](https://github.com/MrHayden404/gotron-sdk/issues)
+2. Read the [FAQ](https://github.com/MrHayden404/gotron-sdk/wiki/FAQ)
 3. Join the community discussions
 
 ## Next Steps
@@ -332,5 +332,5 @@ make clean
 make install
 
 # If installed with go get
-go get -u github.com/fbsobreira/gotron-sdk/cmd/tronctl@latest
+go get -u github.com/MrHayden404/gotron-sdk/cmd/tronctl@latest
 ```

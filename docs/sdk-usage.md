@@ -22,17 +22,17 @@ This guide provides comprehensive examples and patterns for using the GoTRON SDK
 Add GoTRON SDK to your project:
 
 ```bash
-go get github.com/fbsobreira/gotron-sdk
+go get github.com/MrHayden404/gotron-sdk
 ```
 
 ### Basic Import
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
-    "github.com/fbsobreira/gotron-sdk/pkg/common"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keystore"
+    "github.com/MrHayden404/gotron-sdk/pkg/common"
 )
 ```
 
@@ -45,7 +45,7 @@ package main
 
 import (
     "log"
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
 )
 
 func main() {
@@ -114,7 +114,7 @@ client := client.NewGrpcClient(network.URL)
 ```go
 import (
     "fmt"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
 )
 
 func getAccountInfo(c *client.GrpcClient, addr string) error {
@@ -157,8 +157,8 @@ func getAccountInfo(c *client.GrpcClient, addr string) error {
 ```go
 import (
     "crypto/ecdsa"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
 )
 
 func createAccount() (*ecdsa.PrivateKey, string, error) {
@@ -201,7 +201,7 @@ func importAccount(privateKeyHex string) (string, error) {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
 )
 
 func sendTRX(c *client.GrpcClient, from, to string, amount int64, privateKey *ecdsa.PrivateKey) (string, error) {
@@ -298,7 +298,7 @@ func batchTransfer(c *client.GrpcClient, from string, transfers []Transfer, pk *
 ```go
 import (
     "io/ioutil"
-    "github.com/fbsobreira/gotron-sdk/pkg/abi"
+    "github.com/MrHayden404/gotron-sdk/pkg/abi"
 )
 
 func deployContract(c *client.GrpcClient, owner string, pk *ecdsa.PrivateKey) (string, error) {
@@ -482,7 +482,7 @@ func getTRC20Balance(c *client.GrpcClient, tokenContract, account string) (*big.
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
+    "github.com/MrHayden404/gotron-sdk/pkg/keystore"
 )
 
 func keystoreExample() error {
@@ -521,8 +521,8 @@ func keystoreExample() error {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys/hd"
+    "github.com/MrHayden404/gotron-sdk/pkg/mnemonic"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys/hd"
 )
 
 func hdWalletExample() error {

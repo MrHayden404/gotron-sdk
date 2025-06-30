@@ -21,10 +21,10 @@ import (
     "fmt"
     "log"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
 )
 
 func main() {
@@ -80,8 +80,8 @@ import (
     "log"
     "time"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
 )
 
 func monitorBalance(c *client.GrpcClient, addr string, interval time.Duration) {
@@ -133,10 +133,10 @@ import (
     "fmt"
     "log"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
 )
 
 func multiSigExample() error {
@@ -195,10 +195,10 @@ import (
     "fmt"
     "math/big"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/common"
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/common"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
 )
 
 type TRC20Token struct {
@@ -338,10 +338,10 @@ import (
     "log"
     "time"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
 )
 
 func issueTRC10Token() error {
@@ -448,11 +448,11 @@ import (
     "math/big"
     "strings"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/abi"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/abi"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/client/transaction"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
 )
 
 // Lottery contract ABI
@@ -695,9 +695,9 @@ import (
     "math/big"
     "time"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
 )
 
 type AMMBot struct {
@@ -809,10 +809,10 @@ import (
     "fmt"
     "log"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/proto/core"
 )
 
 type ResourceManager struct {
@@ -964,10 +964,10 @@ import (
     "strconv"
     "strings"
     
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
+    "github.com/MrHayden404/gotron-sdk/pkg/client"
+    "github.com/MrHayden404/gotron-sdk/pkg/address"
+    "github.com/MrHayden404/gotron-sdk/pkg/keys"
+    "github.com/MrHayden404/gotron-sdk/pkg/keystore"
 )
 
 type Wallet struct {

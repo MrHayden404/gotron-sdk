@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/MrHayden404/gotron-sdk/pkg/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
 )
 
 const (

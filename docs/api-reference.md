@@ -14,7 +14,7 @@ Complete API reference for the Gotron SDK packages.
 
 ## Client Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/client`
+### `github.com/MrHayden404/gotron-sdk/pkg/client`
 
 The client package provides the main interface for interacting with TRON nodes.
 
@@ -305,7 +305,7 @@ func (c *GrpcClient) TransactionWithExchange(
 
 ## Address Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/address`
+### `github.com/MrHayden404/gotron-sdk/pkg/address`
 
 The address package handles TRON address encoding and validation.
 
@@ -362,7 +362,7 @@ func (a Address) IsZero() bool
 
 ## Transaction Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/client/transaction`
+### `github.com/MrHayden404/gotron-sdk/pkg/client/transaction`
 
 The transaction package handles transaction signing and management.
 
@@ -412,7 +412,7 @@ func VerifySignature(message, signature []byte, address string) bool
 
 ## Keystore Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/keystore`
+### `github.com/MrHayden404/gotron-sdk/pkg/keystore`
 
 The keystore package provides secure key storage and management.
 
@@ -485,7 +485,7 @@ type Account struct {
 
 ## ABI Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/abi`
+### `github.com/MrHayden404/gotron-sdk/pkg/abi`
 
 The ABI package handles smart contract ABI encoding and decoding.
 
@@ -538,7 +538,7 @@ type Event struct {
 
 ## Common Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/common`
+### `github.com/MrHayden404/gotron-sdk/pkg/common`
 
 The common package provides utility functions and types.
 
@@ -607,7 +607,7 @@ func DecodeCheck(input string) ([]byte, error)
 
 ## Proto Package
 
-### `github.com/fbsobreira/gotron-sdk/pkg/proto`
+### `github.com/MrHayden404/gotron-sdk/pkg/proto`
 
 The proto package contains generated Protocol Buffer definitions for TRON.
 
